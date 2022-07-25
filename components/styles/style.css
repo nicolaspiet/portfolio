@@ -1,0 +1,27 @@
+.carousel-gradient {
+	background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,0.5438550420168067) 0%, rgba(0,0,0,0) 100%);}
+
+.carousel .carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+    position: absolute;
+        object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+}
+
+.top {
+    background-attachment: fixed;
+    background-image: url("../images/home-image.svg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.bi {
+    vertical-align: 0.125em;
+}
